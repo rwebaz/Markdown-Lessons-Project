@@ -358,7 +358,11 @@ And, create the 'ico' subdirectory below the 'assets' folder to house any 'ico' 
 
 ## Commit and Pull
 
-Finally, commit your changes to the local Working branch and issue a pull request to the remote master via the local GitHub.app.
+Finally, commit your changes to the local Working branch and issue a pull request to the remote master via the local GitHub desktop.app and test the rendering remotely via the GitHub Pages tab by clicking the URL for your new website.
+
+## MMINAIL
+
+There is a Markdown folder in the navigation aside of the MMINAIL home page. If you click on the 'Learn Markdown' sub-tab in the drop down menu, you will see a series of links that will hyperlink the end-user to the markdown pages complete with a link-back to the home page of the MMINAIL embedded in the footer of each (.md)
 
 ***
 
