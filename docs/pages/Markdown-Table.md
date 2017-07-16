@@ -292,7 +292,7 @@ The configuration file is named '_config.yml' and has been auto-placed in the ro
 
 Each repo deserves a separate Google Analytics number. Go to the admin section to establish a unique number for your repo.
 
-If you need to establish a Google Analytics account, follow this link ... [Ruby Version Manager for Mac](https://rvm.io/){:target="_blank"}.
+If you need to establish a Google Analytics account, follow this link ... [Google Analytics](https://analytics.google.com){:target="_blank"}.
 
 ## Config Template
 
@@ -300,7 +300,65 @@ When you are satisfied with the contents of your 'config-template', copy and pas
 
 Then commit your changes to the Working branch of your local repo and generate a pull request for the remote server.
 
-## More to come
+## Remote Settings
+
+After each successful commit, pull, and merge with the remote master ...
+
+Go to the Settings tab of your repo and click on the URL of your Git Hub Pages website.
+
+If there are any problems with your configuration as presented and merged, the URL will not render.
+
+In this case, it does!
+
+## Cayman Theme
+
+The remote server has set the default for a simple 'Cayman Theme'.
+
+To grant the website additional function, we shall import a couple of files from the local copy of the theme 'Cayman'.
+
+## ICO
+
+First, from the Finder ... drag in a favicon (.ico) to both the repo root and the website '/docs' root.
+
+## Data
+
+Establish a '_data' subdirectory and fund the folder with the 'new-data-template.json'
+
+## Layouts
+
+Next, establish a '_layouts' subdirectory and fund the folder with the 'default.htm'.
+
+The include(s) icon-github.html', 'nav.htm', and icon-github.svg are required for the proper functioning of the 'default.htm'.
+
+Place these three (3) includes in the new '_includes' subdirectory.
+
+## Sass
+
+The entire '_sass' subdirectory must be duplicated from the 'Cayman' theme local copy and moved into the '/docs' directory of your repo.
+
+There are four (4) files inside the default '_sass' subdirectory.
+
+We shall utilize them all in addition to the local custom style sheet 'style.scss' stored in the 'assets/css' directory of the '/docs' website root.
+
+1. jekyll-theme-cayman.scss
+
+1. normalize.scss
+
+1. rouge-github.scss
+
+1. variables.scss
+
+## Assets
+
+Be sure to drag in ( if already made ), or create an 'assets' subdirectory as a sub-folder of the '/docs' directory.
+
+Next, create the 'css' subdirectory below the 'assets' folder to house the custom style sheet referenced above.
+
+And, create the 'ico' subdirectory below the 'assets' folder to house any 'ico' images as well as create the 'img' subdirectory below the 'assets' folder to house any other types of images.
+
+## Commit and Pull
+
+Finally, commit your changes to the local Working branch and issue a pull request to the remote master via the local GitHub.app.
 
 ***
 
