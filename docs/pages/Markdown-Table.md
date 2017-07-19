@@ -3,12 +3,14 @@ title: Markdown Table
 layout: default
 navigation_weight: 9
 ---
-- TOC
-{:toc}
-
 # Markdown Table
 
 Place the introducing line of text ie.) the 'tagline' here ...
+
+## Table O Contents
+
+- TOC
+{:toc}
 
 ## How To Create A Table In Markdown
 
