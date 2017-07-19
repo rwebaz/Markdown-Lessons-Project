@@ -1,9 +1,37 @@
 ---
 title: Markdown Table
 layout: default
-navigation_weight: 2
+navigation_weight: 9
 ---
+- TOC
+{:toc}
+
 # Markdown Table
+
+Place the introducing line of text ie.) the 'tagline' here ...
+
+## Navigating This Page ( Internal Anchor Links )
+
+Also embed the introducing line of text ie.) the 'tagline' in the referring hyperlink that originates in the working repo nav, as follows:
+
+### The Referring Hyperlink Code
+
+```liquid
+{% raw %}
+<li><a href="https://rwebaz.github.io/Governance-Lessons-Project/pages/Stress-Uncertainty.html" title="Click to Visit the Stress Uncertainty Page at GitHub" target="_blank">Stress Uncertainty</a>: A deficiency of Brain Derived Neurotrophic Factors caused by the stresses of early childhood indirectly damages the adult prefrontal cortex, the hippocampus, as well as the adult hypothalamic adrenal system that is stimulated and regulated by the pituitary gland.</li>
+{% endraw %}
+```
+
+**Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line, as follows:
+
+### Table O Contents Code
+
+```liquid
+{% raw %}
+- TOC
+{:toc}
+{% endraw %}
+```
 
 ## How To Create A Table In Markdown
 
@@ -363,6 +391,14 @@ Finally, commit your changes to the local Working branch and issue a pull reques
 ## MMINAIL
 
 There is a Markdown folder in the navigation aside of the MMINAIL home page. If you click on the 'Learn Markdown' sub-tab in the drop down menu, you will see a series of links that will hyperlink the end-user to the markdown pages complete with a link-back to the home page of the MMINAIL embedded in the footer of each (.md)
+
+## Subtitle
+
+More to come ...
+
+## How To Include An 'include'
+
+{% include firefox.htm %}
 
 ***
 
