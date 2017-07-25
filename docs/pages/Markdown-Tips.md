@@ -69,7 +69,7 @@ Next, the `link` tag is built within a separate liquid statement adjacent to and
 
 ```liquid
 {% raw %}
-{% link pages/Markdown-Target-Blank.md %}
+{% link pages/Target-Blank.md %}
 {% endraw %}
 ```
 
@@ -83,13 +83,13 @@ Putting the two liquid statements together "live" we have the following "live" r
 
 ```liquid
 {% raw %}
-[Target Blank]{{ site.baseurl }}{% link pages/Markdown-Target-Blank.md %}
+[Target Blank]{{ site.baseurl }}{% link pages/Target-Blank.md %}
 {% endraw %}
 ```
 
 ### Live E
 
-[Target Blank]{{ site.baseurl }}{% link pages/Markdown-Target-Blank.md %}
+[Target Blank]{{ site.baseurl }}{% link pages/Target-Blank.md %}
 
 ***
 
@@ -295,7 +295,7 @@ Inside the single set of parenthesis `(...)` is a double set of braces ie.) a *m
 {% endraw %}
 ```
 
-In this case ... the site base URL `site.baseurl` followed by another liquid `{\%...\%}` statement that houses the liquid `link` keyword plus a `space` followed by the relative `page` URL of the targeted page `pages/Markdown-Target-Blank.md`.
+In this case ... the site base URL `site.baseurl` followed by another liquid `{\%...\%}` statement that houses the liquid `link` keyword plus a `space` followed by the relative `page` URL of the targeted page `pages/Target-Blank.md`.
 
 Using a Triple-backtick highlighted code block with a language qualifier of liquid to illustrate ... all together now!
 
@@ -303,13 +303,13 @@ Using a Triple-backtick highlighted code block with a language qualifier of liqu
 
 ```liquid
 {% raw %}
-[Target Blank]({{ site.baseurl }}{% link pages/Markdown-Target-Blank.md %})
+[Target Blank]({{ site.baseurl }}{% link pages/Target-Blank.md %})
 {% endraw %}
 ```
 
 ### Live Q
 
-**Por ejemplo en vivo**. [Target Blank]({{ site.baseurl }}{% link pages/Markdown-Target-Blank.md %})
+**Por ejemplo en vivo**. [Target Blank]({{ site.baseurl }}{% link pages/Target-Blank.md %})
 
 ***
 
