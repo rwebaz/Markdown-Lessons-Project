@@ -1,7 +1,7 @@
 ---
 title: Markdown Emoji
 layout: default
-navigation_weight: 3
+navigation_weight: 8
 ---
 # Markdown Emoji
 
