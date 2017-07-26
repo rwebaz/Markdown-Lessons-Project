@@ -1,0 +1,21 @@
+{::nomarkdown}
+<a href="https://wikipdia.com" title="Click to visit the Wikipedia page of {{ tab.fruitNameEn }}" target="_blank"></a>
+{:/}
+
+{{ "English - Fruits" }}|{{ "Photo" }}|{{ "Spanish - Frutas" }}|
+---------|---------|---------|
+data #1|data #2|data #3|
+
+{% for tab in site.data.tabs.fruits %}
+|{{ tab.fruitNameEn }}|[![{{ tab.fruitNameEs }}]({{ tab.photo }} "Title: {{ tab.fruitNameEn }} - {{ tab.fruitNameEs }}" ){:class="img-responsive"}{:height="32px" width="32px"}](http://cannabuds.us){:target="_blank"}|{{ tab.fruitNameEs }}|
+{% endfor %}
+
+{% comment %}
+  {:op­tions parse_block­_html="false"}
+  {:class="img-responsive"}
+  {:class="img"}
+  {:height="32px" width="32px"}
+{% endcomment %}
+
+<td markdown="span">[![{{ bag.fruitNameEs }}]({{ bag.photo }} "Title: {{ bag.fruitNameEn }} - {{ bag.fruitNameEs }}" )](http://cannabuds.us){:target="_blank"}</td>
+			

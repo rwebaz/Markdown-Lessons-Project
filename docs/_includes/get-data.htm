@@ -1,0 +1,29 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <table class="table">
+      <colgroup>
+        <col width="33.33%" />
+        <col width="33.33%" />
+        <col width="33.33%" />
+      </colgroup>
+
+      <thead>
+        <tr class="header">
+          <th>English - Fruits</th>
+          <th>Photo</th>
+          <th>Spanish - Frutas</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for tab in site.data.tabs.fruits %}
+        <tr class="center">
+          <td markdown="span">{{ tab.fruitNameEn }}</td>
+          <td markdown="span">[![{{ tab.fruitNameEs }}]({{ tab.photo }} "Title: {{ tab.fruitNameEn }} - {{ tab.fruitNameEs }}" )](http://cannabuds.us){:target="_blank"}</td>
+          <td markdown="span">{{ tab.fruitNameEs }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
