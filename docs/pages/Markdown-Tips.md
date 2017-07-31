@@ -475,14 +475,27 @@ Simple ... Prepend ie.) place at the beginning and Append ie.) place at the end,
 
 Listing the various image assets of your repo require a liquid tag statement placed within a `(.htm)` page, as follows:
 
-```yaml
-{\% assign image_files = site.static_files | where: "image", true \%}
-{\% for myimage in image_files \%}
-  {\{ myimage.path }\}
-{\% endfor \%}
+```liquid
+{% raw %}
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
+{% endraw %}
 ```
 
-**Note**. Remember to place a language qualifier `yaml` after the first set of triple backticks when highlighting a multi-line block of code in a `(.md)` page.
+**Note**. Remember to place a language qualifier `liquid` after the first set of triple backticks when highlighting a multi-line block of code in a `(.md)` page.
+
+***
+
+## Block Text
+
+```liquid
+{% raw %}
+First Line of Text
+>As you can see in the following live rendition, the usage of the "greater than" symbol `>` in this case yields an indented 2nd line of text with a corresponding "thick pipe" drawn preceding Line Number Two.
+{% endraw %}
+```
 
 ## More To Come
 
