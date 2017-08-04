@@ -3,9 +3,13 @@ title: Markdown Tips
 layout: default
 navigation_weight: 9
 ---
-# GFG
+# Markdown Tips
 
-GFM is an acronym for Git Hub Flavor'd Markdown
+A bunch of Markdown - Kramdown - Liquid Short Lessons.
+
+## GFG
+
+GFM is an acronym for "Git Hub Flavor'd Markdown"
 
 **Rule**. All markdown pages carry the suffix (.md)
 
