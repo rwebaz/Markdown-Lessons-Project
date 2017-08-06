@@ -17,7 +17,7 @@ GFM is an acronym for "Git Hub Flavor'd Markdown"
 
 ## Creating Headers
 
->When creating headers using GitHub Flavored Markdown (.md) ...
+When creating headers using GitHub Flavored Markdown (.md) ...
 
 >Simply place one `#` = `<h1>`, two `##` = `<h2>`, or three `###` = `<h3>` sharp symbols in front of the text you wish to emphasize.
 
@@ -131,21 +131,25 @@ Inline anchor links that point internally to other pages within the repo require
 
 ## Stand Alone External Hyperlinks
 
-Inline hyperlinks with bracketed clickable text `[MMINAIL]` may be followed by the `site.url` simply enclosed in a single set of parenthesis `(...)` followed by a target indicator, as follows:
+The sections of a **Stand Alone External Hyperlink** are, as follows:
 
-### The Code H
+1. Prepended and bracketed clickable text `[MMINAIL]`,
+
+1. Followed by the url of the external website enclosed in a single set of parenthesis `(https://mminail.github.io)`,
+
+1. Appended by a liquid target indicator `{:target="_blank"}`.
+
+### Live Example: Stand Alone External Hyperlink
+
+**Por ejemplo en vivo**. A stand alone, clickable text, external hyperlink with target indicator blank ... [MMINAIL](https://mminail.github.io){:target="_blank"}.
+
+### The Code: Stand Alone External Hyperlink
 
 ```liquid
 {% raw %}
 [MMINAIL](https://mminail.github.io){:target="_blank"}
 {% endraw %}
 ```
-
-### Live H
-
-**Por ejemplo en vivo**. A stand alone, clickable text, external hyperlink with target blank ... [MMINAIL](https://mminail.github.io){:target="_blank"}.
-
-***
 
 ## Auto External Hyperlinks
 
@@ -166,40 +170,6 @@ Stand alone "auto" URLs that point to external targets may be enclosed in angle 
 - [MMINAIL] <https://mminail.github.io>
 
 **Note**. All external "auto" URLs must start with `https`.
-
-***
-
-## Reference Style Hyperlinks
-
-An external `site.url` may also be referenced by an inline bracketed clickable text `[MMINAIL]` followed by a bracketed index number `[1]`, as follows:
-
-### The Code J
-
-```liquid
-{% raw %}
-The [MMINAIL][1] link in this paragraph ...
-{% endraw %}
-```
-
-### Live J
-
-**Por ejemplo en vivo**. The [MMINAIL][1] link in this paragraph is anchored by a citation in the `nofooter` below.
-
-The citation below is comprised of the aforementioned bracketed index number `[1]` followed by a colon `:` followed by the `site.url` of the targeted destination.
-
-**Note**. The citation actually sits below this fifth paragraph of text, hidden in the `nofooter` of this example.
-
-[1]:https://mminail.github.io
-
-But, can now become manifest, as next illustrated ...
-
-### The Code K
-
-```liquid
-{% raw %}
-[1]:https://mminail.github.io
-{% endraw %}
-```
 
 ***
 
