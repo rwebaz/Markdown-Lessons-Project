@@ -47,15 +47,19 @@ Also embed the introducing line of text ie.) the 'tagline' in the referring hype
 
 ## How To Include An 'include'
 
-{% include firefox.htm %}
+```liquid
+{% raw %}
+{% include example.htm %}
+{% endraw %}
+```
 
 ***
 
-## Navigating This Page ( Internal Anchor Links )
+## Navigating This Page ( Internal Anchor Links ) #2
 
 Also embed the introducing line of text ie.) the 'tagline' in the referring hyperlink that originates in the working repo nav, as follows:
 
-### The Referring Hyperlink Code
+### The Referring Hyperlink Code #2
 
 ```liquid
 {% raw %}
@@ -65,7 +69,7 @@ Also embed the introducing line of text ie.) the 'tagline' in the referring hype
 
 **Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line, as follows:
 
-### Table O Contents Code
+### Table O Contents Code 2
 
 ```liquid
 {% raw %}
@@ -73,7 +77,3 @@ Also embed the introducing line of text ie.) the 'tagline' in the referring hype
 {:toc}
 {% endraw %}
 ```
-
-## How To Include An 'include'
-
-{% include firefox.htm %}
