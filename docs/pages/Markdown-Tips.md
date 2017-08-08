@@ -209,36 +209,6 @@ This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
 
 ***
 
-## Enabling Image URLs
-
-When enabling Image URLs using GitHub Flavored Markdown (.md) ...
-
-Simply place a "bracket" symbol in front of ( and, at the end of ) the 'Alt text' part of your Image URL.
-
-Then, encircle the URL with "parenthesis", as follows:
-
-### The Code N
-
-```liquid
-{% raw %}
-[8 x 4 Solar Panel Array With Dual Axis Tracking](../assets/img/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
-{% endraw %}
-```
-
-**Note**. Be sure to to place the 'images' subdirectory that holds the actual image file (.png) under the same subdirectory that houses your document file (.md) ie.) pages
-
-Finally, to enable the fetching and rendering of your subject image, place an exclamation point '!' at the beginning of your image statement, as follows:
-
-### The Code O
-
-```liquid
-{% raw %}
-![8 x 4 Solar Panel Array With Dual Axis Tracking](../assets/img/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
-{% endraw %}
-```
-
-***
-
 ## Stand Alone URLs
 
 When enabling **Stand Alone URLs** using GitHub Flavored Markdown (.md) ...
