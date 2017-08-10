@@ -353,11 +353,7 @@ Text that you wish to look emboldened such as a **Note**. Prefix ... Go between 
 
 ## Double Asterisks
 
-## Inline Images
-
-Inline images may be displayed using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`, as follows:
-
-![Logo Badge](../assets/ico/ms-icon-70x70.png)
+More to come ...
 
 ## Referenced Images
 

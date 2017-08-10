@@ -3,9 +3,11 @@ title: Inline Images
 layout: default
 navigation_weight: 9
 ---
-# Inline Images
+# Inline Images In Markdown
 
-Place the introducing line of text ie.) the 'tagline' here ...
+Inline images may be displayed in markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`.
+
+![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
 
 ## Table O Contents
 
@@ -16,37 +18,45 @@ Place the introducing line of text ie.) the 'tagline' here ...
 
 When enabling Image URLs using GitHub Flavored Markdown (.md) ...
 
-Simply place a "bracket" symbol in front of ( and, at the end of ) the 'Alt text' part of your Image URL.
-
-Then, encircle the URL with "parenthesis", as follows:
-
-### The Code N
+> Simply place a "bracket" symbol in front of and at the end of the 'Alt text' part of your Image URL, as follows:
 
 ```liquid
 {% raw %}
-[8 x 4 Solar Panel Array With Dual Axis Tracking](../assets/img/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
+[MMI™ Flammarion Logo Badge]
 {% endraw %}
 ```
 
-**Note**. Be sure to to place the 'images' subdirectory that holds the actual image file (.png) under the same subdirectory that houses your document file (.md) ie.) pages
-
-Finally, to enable the fetching and rendering of your subject image, place an exclamation point '!' at the beginning of your image statement, as follows:
-
-### The Code O
+> Next, append and encircle the URL with "parenthesis" ...
 
 ```liquid
 {% raw %}
-![8 x 4 Solar Panel Array With Dual Axis Tracking](../assets/img/Canna-Solar-32-Panel-Array-8-x-4-w-dual-axis-tracking-640-x-480-px.png)
+[MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
 {% endraw %}
 ```
 
-## Subtitle
-
-More to come ...
+**Note**. Be sure to to place the 'images' subdirectory that holds the actual image file (.png) under the docs folder.
 
 ***
 
+**Tip**. The docs folder also houses your (.md) document files via the subdirectory named 'pages'.
+
+> Finally, to enable the fetching and rendering of your subject image, place an exclamation point '!' at the beginning of your image statement, as follows:
+
+```liquid
+{% raw %}
+![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+{% endraw %}
+```
+
+## Live Example
+
+Inline images may be displayed using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`, as follows:
+
+![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+
 ## Raw Code
+
+More to come ...
 
 ```liquid
 {% raw %}
@@ -56,4 +66,4 @@ More to come ...
 
 ***
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
+**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloud Cannon dot com](https://www.cloudcannon.com/){:target="_blank"}.
