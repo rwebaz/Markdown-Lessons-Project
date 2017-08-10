@@ -1,9 +1,13 @@
 ---
-title: Markdown Emoji
+title: Emoji Markdown 
 layout: default
 navigation_weight: 9
 ---
-# Markdown Emoji
+# Emoji Markdown
+
+## Using Emoji In Markdown
+
+More to come ...
 
 ## GitHub Flavored Markdown (GFM)
 
