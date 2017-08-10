@@ -24,13 +24,13 @@ More to come ... Short statement of critique
 
 #### Live Link: Shell Title
 
-1. [ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda](https://www.ng-book.com/2). Published by © 2017 [Fullstack.io](https://www.fullstack.io){:target="_blank"}.
+1. [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloud Cannon dot com](https://www.cloudcannon.com/){:target="_blank"}.
 
 #### The Code: Shell Title
 
 ```liquid
 {% raw %}
-[ng-book 2: The Complete Guide to Angular by Nate Murray, Felipe Coury, Ari Lerner, and Carlos Taborda](https://www.ng-book.com/2). Published by © 2017 [Fullstack.io](https://www.fullstack.io){:target="_blank"}
+[Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloud Cannon dot com](https://www.cloudcannon.com/){:target="_blank"}.
 {% endraw %}
 ```
 
