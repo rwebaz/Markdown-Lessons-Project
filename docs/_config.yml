@@ -4,8 +4,8 @@
 theme: "jekyll-theme-cayman"
 # repository: rwebaz/Markdown-Lessons-Project
 title: "Markdown Lessons Project"
-tagline: "A GitHub repo of Markdown lessons that emphasize both the GFM and Kramdown engines"
-description: "A GitHub repo of Markdown lessons that emphasize both the GFM and Kramdown engines"
+tagline: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
+description: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
@@ -14,7 +14,7 @@ author:
 twitter:
     username: "mminail"
 # The 'baseurl' is the subpath of your website, e.g. /blog
-baseurl: "/Liquid-Lessons-Project"
+baseurl: "/Markdown-Lessons-Project"
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
