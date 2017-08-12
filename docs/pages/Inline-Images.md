@@ -5,7 +5,7 @@ navigation_weight: 9
 ---
 # Inline Images In Markdown
 
-Inline images may be displayed in markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`.
+**Inline Images** may be displayed in markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`.
 
 ![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
 

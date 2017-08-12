@@ -3,9 +3,9 @@ title: Home Page
 layout: default
 navigation_weight: 1
 ---
-# Issue: Lesson Template
+# Markdown Lessons Project Template
 
-State the issue of the problem in the form of a question.
+The **Markdown Lessons Project** is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines.
 
 ![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
 
@@ -13,6 +13,10 @@ State the issue of the problem in the form of a question.
 
 - TOC
 {:toc}
+
+## Issue
+
+State the issue of the problem in the form of a question ...
 
 ## Solution
 

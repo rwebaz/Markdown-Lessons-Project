@@ -62,6 +62,8 @@ But, can now become manifest via a **Raw Code** liquid statement, as next illust
 {% endraw %}
 ```
 
+**Note**. No bare Urls allowed in Markdown
+
 ## Raw Code
 
 ```liquid
