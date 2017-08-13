@@ -40,7 +40,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/medmjorg-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png
+      image: /assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png
 defaults:
   - scope:
       path: "" 
