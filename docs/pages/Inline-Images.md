@@ -7,7 +7,7 @@ navigation_weight: 9
 
 **Inline Images** may be displayed in markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`.
 
-![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 
 ## Table O Contents
 
@@ -16,9 +16,13 @@ navigation_weight: 9
 
 ## Enabling Image URLs
 
-When enabling Image URLs using GitHub Flavored Markdown (.md) ...
+Place a "bracket" symbol `[` in front of and at the end of `]` the **Alt Text** part of your **Image Url** when crafting Image Url using **GitHub Flavored Markdown**, as follows:
 
-> Simply place a "bracket" symbol in front of and at the end of the 'Alt text' part of your Image URL, as follows:
+### Alt Text
+
+Recall from **Html** how **Alt Text** is required just in case your image file does not render in the client browser window.
+
+Especially for screen readers that do not rely on visual information, having an idea of what type of image you are attempting to render keeps the flow of information moving.
 
 ```liquid
 {% raw %}
@@ -26,44 +30,56 @@ When enabling Image URLs using GitHub Flavored Markdown (.md) ...
 {% endraw %}
 ```
 
-> Next, append and encircle the URL with "parenthesis" ...
+Next, append and encircle the relative path to the image file with a single set of parenthesis as shown in the following code block ...
 
 ```liquid
 {% raw %}
-[MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+[MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 {% endraw %}
 ```
 
-**Note**. Be sure to to place the 'images' subdirectory that holds the actual image file (.png) under the docs folder.
+### The Assets Subdirectory
 
-***
+The **Assets** sub-folder sits in the root of your docs folder.
 
-**Tip**. The docs folder also houses your (.md) document files via the subdirectory named 'pages'.
+Recall that all of your **Git Hub Pages** are served from the docs folder.
 
-> Finally, to enable the fetching and rendering of your subject image, place an exclamation point '!' at the beginning of your image statement, as follows:
+Specifically, from the pages subdirectory within the docs folder.
+
+### Break It Down
+
+The **Assets** sub-folder is further split into three more folders ...
+
+1. **css**
+
+1. **ico**, and
+
+1. **img**
+
+**Note**. The **css** folder holds the style sheet ( .scss ) for the repo, the **ico** folder holds images of less than 100 px in width, and the **img** folder holds image files of 100 px or more in width.
+
+### The Exclamation Point
+
+Finally, to enable the fetching and rendering of your subject image in **Markdown**, prepend the **Alt Text** of your image with an exclamation point `!` right before the first bracket `[` at the beginning of your image statement, as follows:
 
 ```liquid
 {% raw %}
-![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 {% endraw %}
 ```
 
-## Live Example
+## Going Live
 
-Inline images may be displayed using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`, as follows:
+### Da Rule
 
-![MMI™ Flammarion Logo Badge](../assets/ico/ms-icon-70x70.png)
+**Inline Images** may be displayed using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative pathway to the image file enclosed in a single set of parenthesis `(...)`.
 
-## Raw Code
+### The Flammarion
 
-More to come ...
+![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+{% include flammarion-text.htm %}
 
-***
+## Sources
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloud Cannon dot com](https://www.cloudcannon.com/){:target="_blank"}.
+- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
