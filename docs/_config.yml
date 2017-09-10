@@ -1,18 +1,20 @@
 # Site settings
 #
+# Date of this Update to Config-template file ver 08-13-2017 PM
+#
 # github: [metadata]
 theme: "jekyll-theme-cayman"
-# repository: rwebaz/Markdown-Lessons-Project
+# repository: MMINAIL/mminail.github.io
 title: "Markdown Lessons Project"
 tagline: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
 description: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
+twitter:
+    username: "mminail"
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
     github_username: "mminail"
     twitter_username: "mminail"
-twitter:
-    username: "mminail"
 # The 'baseurl' is the subpath of your website, e.g. /blog
 baseurl: "/Markdown-Lessons-Project"
 url: "https://rwebaz.github.io"
@@ -33,14 +35,19 @@ defaults:
       image: "true"
 defaults:
   - scope:
-      path: "assets/ico"
+      path: "assets/img/png"
     values:
       image: "true"
 defaults:
   - scope:
-      path: ""
+      path: "assets/img/svg"
     values:
-      image: /assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png
+      image: "true"
+defaults:
+  - scope:
+      path: "assets/ico"
+    values:
+      image: "true"
 defaults:
   - scope:
       path: "" 

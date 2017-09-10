@@ -5,12 +5,9 @@ navigation_weight: 9
 ---
 # Base Links
 
-Base links may be placed below paragraphs and referenced in the above paragraphs using Markdown.
+**Base links** may be placed below paragraphs and referenced in the above paragraphs using Markdown.
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc-flammarion.md %}
 
 ## Base Links ( Example )
 
@@ -24,16 +21,8 @@ If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
 
-## Raw Code
+{% include sources-and-uses.md %}
 
-More to come ...
+### External Sources
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
-
-***
-
-**Source**: [Project Source Links](https://rwebaz.github.io/Zazzle-Hempaz-Project/pages/Source-Links.html){:target="_self"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
