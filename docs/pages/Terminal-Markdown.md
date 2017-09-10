@@ -7,10 +7,7 @@ navigation_weight: 9
 
 Markdown is a set of common rules on how to easily write readable and formatted digitally text quickly.
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc-flammarion.md %}
 
 ## How To Learn Markdown From The Terminal
 
@@ -115,24 +112,6 @@ If you have enjoyed the usage of the program, please drop the creators a line.
 
 Tell them their program is the greatest thing since "sliced bread", or something like that.
 
-### Original Creator of How-To-Markdown
-   
-[GitHub Username: @wangding](https://www.github.com/wangding){:target="_blank"}
-
-### Original Creators of Markdown 
-   
-Source: [John Gruber, original Markdown creator, #2004](http://daringfireball.net/){:target="_blank"}
-
-Source: [Aaron Swartz, original Markdown creator, 2004](http://www.aaronsw.com/){:target="_blank"}
-
-## Raw Code
-
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
-
 ### Pre-text Template
 
 From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
@@ -141,6 +120,14 @@ From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
 From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
-***
+{% include sources-and-uses.md %}
+s
+### External Sources
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+- The [GitHub Username: @wangding](https://www.github.com/wangding){:title="Click to Visit the Git Hub profile of wang ding"}{:target="_blank"} Original Creator of How-To-Markdown.
+
+- The [John Gruber, original Markdown creator, #2004](http://daringfireball.net/){:title="Click to Visit Daring Fireball dot net"}{:target="_blank"} Original Co-Creator of Markdown.
+
+- The [Aaron Swartz, original Markdown creator, 2004](http://www.aaronsw.com/){:title="Click to Visit Aaron Sw dot com"}{:target="_blank"} Original Co-Creator of Markdown.

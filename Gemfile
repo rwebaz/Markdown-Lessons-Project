@@ -1,5 +1,8 @@
 source "https://rubygems.org"
 ruby "2.4.1"
+#
+# Date of this Update to Gem-template file ver 07-29-2017
+#
 # The Gemfile is where you manage Jekyll versioning.
 #
 # For example ...
@@ -22,7 +25,11 @@ ruby "2.4.1"
 #
 # You may run the following command from a Terminal prompt to check the current version installed, as follows:
 # 
-# Bundler --version
+# bundler --version
+#
+# And, you may run the following command from a Terminal prompt to check the location of your new Bundler version, as follows:
+#
+# which bundler
 #
 # If you need to upgrade your version of the 'Gem Bundler' program, run the following command from a Terminal prompt:
 #
@@ -49,7 +56,7 @@ ruby "2.4.1"
 # It is not necessary to install the Bundler and Jekyll gems every time you create a separate repo. 
 #
 # A Gemfile ( with no extension ) will be automatically created in the root directory of your new repo.
-#
+# 
 # If not, create a Gemfile ( with no extension ) and import the contents of this template.
 #
 # Finally, run the following command from the Terminal prompt of the root directory of your new repo to load the directives of this template.
@@ -80,7 +87,7 @@ ruby "2.4.1"
 # 
 # The purpose of the Gemfile and Gemfile dot lock files is to inform Bundler about the gem requirements of your GitHub pages website.
 # 
-# If your website does not have the the Gemfile and Gemfile dot lock files sitting in the root directory of the repo ( NOT in the /docs webite subdirectory! ) ...
+# If your website does not have the the Gemfile and Gemfile dot lock files sitting in the root directory of the repo ( NOT in the /docs website subdirectory! ) ...
 #
 # Then, you can omit the 'bundle exec' command from above and just run the 'jekyll serve' command.
 #
