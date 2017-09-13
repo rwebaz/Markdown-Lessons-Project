@@ -1,25 +1,13 @@
 ---
 title: Citrus Table
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
-# Citrus ( Kramdown ) Table
+# Citrus Table
 
-## Navigating This Page ( Internal Anchor Links )
+{{ site.tagline }}
 
-- TOC
-{:toc}
-
-**Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line, as follows:
-
-### Table O Contents
-
-```liquid
-{% raw %}
-- TOC
-{:toc}
-{% endraw %}
-```
+{% include toc-flammarion.md %}
 
 ## Table (Mesa) O Citrus ( de Citrus )
 
@@ -86,8 +74,8 @@ The internal columns of table data have been entered manually row-by-row after t
 
 ```liquid
 {% raw %}
-|Blackberries|![Page Banner](../assets/img/raspberry-frambuesa-32-x-32.png)|Zarzamoras|
-|Raspberries|![Page Banner](../assets/img/raspberry-frambuesa-32-x-32.png)|Frambuesas|
+|Blackberries|![Page Banner](../assets/img/png/raspberry-frambuesa-32-x-32.png)|Zarzamoras|
+|Raspberries|![Page Banner](../assets/img/png/raspberry-frambuesa-32-x-32.png)|Frambuesas|
 {% endraw %}
 ```
 
@@ -102,8 +90,8 @@ To create a live rendition of the table as described, the individual components 
 |---------+---------+---------|
 |English - Citrus|Photo|Spanish - Citrus|
 |---------|:---------:|---------:|
-|Blackberries|![Page Banner](../assets/img/raspberry-frambuesa-32-x-32.png)|Zarzamoras|
-|Raspberries|![Page Banner](../assets/img/raspberry-frambuesa-32-x-32.png)|Frambuesas|
+|Blackberries|![Page Banner](../assets/img/png/raspberry-frambuesa-32-x-32.png)|Zarzamoras|
+|Raspberries|![Page Banner](../assets/img/png/raspberry-frambuesa-32-x-32.png)|Frambuesas|
 |=========+=========+=========|
 |This is an optional footer row of text ...|
 |---------+---------+---------|
@@ -118,13 +106,26 @@ A live rendition of the 'Table (Mesa) O Citrus ( de Citrus )' is reproduced here
 |---------+---------+---------|
 |English - Citrus|Photo|Spanish - Citrus|
 |---------|:---------:|---------:|
-|Blackberries|![Page Banner](../assets/img/raspberry-frambuesa-32-x-32.png)|Zarzamoras|
-|Raspberries|![Page Banner](../assets/img/raspberry-frambuesa-32-x-32.png)|Frambuesas|
+|Blackberries|![Page Banner](../assets/img/png/raspberry-frambuesa-32-x-32.png)|Zarzamoras|
+|Raspberries|![Page Banner](../assets/img/png/raspberry-frambuesa-32-x-32.png)|Frambuesas|
 |=========+=========+=========|
 |This is an optional footer row of text ...|
 |---------+---------+---------|
 {: .table .groove-table #TableCage}
 
-### Ping-back
+### Table O Contents Code
 
-**Source**: [GitLab Markdown Guide](https://about.gitlab.com/){:target="_blank"}
+```liquid
+{% raw %}
+- TOC
+{:toc}
+{% endraw %}
+```
+
+**Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line.
+
+{% include sources-and-uses.md %}
+
+- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+- The [GitLab Markdown Guide](https://about.gitlab.com/){:title="Click to Visit the GitLab Markdown Guide"}{:target="_blank"} by Gitlab. Published by © 2017 [Gitlab.com](https://www.gitlab.com/){:title="Click to Visit the GitLab Home Page"}{:target="_blank"}.

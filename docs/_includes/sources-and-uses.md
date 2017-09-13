@@ -19,6 +19,10 @@ By clicking on either the red [1] above, or the red [MMINAIL] ...
 
 The reader will be hyperlinked to the bottom of the page directly to the referenced citation.
 
+### Description
+
+{{ site.description }}
+
 ## Sources and Uses
 
 The source and use of 3rd party materials in the creation of this **Markdown** page is greatly appreciated.
@@ -34,7 +38,3 @@ Therefore, it is the policy of the MMINAIL [[1](#MMINAIL){:.red}] to always prov
 ### Inline References
 
 1. {:#MMINAIL}The [MMINAIL](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"} is an acronym for the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
-
-### External Sources
-
-- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"}. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.

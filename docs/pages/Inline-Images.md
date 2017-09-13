@@ -1,20 +1,25 @@
 ---
 title: Inline Images
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
-# Inline Images In Markdown
+# Inline Images
 
-**Inline Images** may be displayed in markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`.
+{{ site.tagline }}
 
-![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
-
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc-flammarion.md %}
 
 ## Enabling Image URLs
+
+In **Markdown** *Inline Images* may be displayed in using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`, as follows:
+
+```liquid
+{% raw %}
+![MMI™ Flammarion Logo Badge](../assets/img/png/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
+{% endraw %}
+```
+
+### Break It Down
 
 Place a "bracket" symbol `[` in front of and at the end of `]` the **Alt Text** part of your **Image Url** when crafting Image Url using **GitHub Flavored Markdown**, as follows:
 
@@ -34,7 +39,7 @@ Next, append and encircle the relative path to the image file with a single set 
 
 ```liquid
 {% raw %}
-[MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
+[MMI™ Flammarion Logo Badge](../assets/img/png/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 {% endraw %}
 ```
 
@@ -46,7 +51,7 @@ Recall that all of your **Git Hub Pages** are served from the docs folder.
 
 Specifically, from the pages subdirectory within the docs folder.
 
-### Break It Down
+### The Assets Subfolder
 
 The **Assets** sub-folder is further split into three more folders ...
 
@@ -64,7 +69,7 @@ Finally, to enable the fetching and rendering of your subject image in **Markdow
 
 ```liquid
 {% raw %}
-![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
+![MMI™ Flammarion Logo Badge](../assets/img/png/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 {% endraw %}
 ```
 
@@ -76,10 +81,12 @@ Finally, to enable the fetching and rendering of your subject image in **Markdow
 
 ### The Flammarion
 
-![MMI™ Flammarion Logo Badge](../assets/img/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
+![MMI™ Flammarion Logo Badge](../assets/img/png/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 
-{% include flammarion-text.htm %}
+{% include sources-and-uses.md %}
 
-## Sources
+### External Sources
 
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon dot com"}{:target="_blank"}.

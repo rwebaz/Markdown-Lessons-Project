@@ -1,16 +1,13 @@
 ---
 title: Reference Hyperlinks
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
 # Reference Hyperlinks
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc-flammarion.md %}
 
 ## Reference Style Hyperlinks In Markdown
 
@@ -46,11 +43,7 @@ The citation below is comprised of the aforementioned bracketed index number `[1
 
 ##### nofooter
 
-***
-
 [1]:https://mminail.github.io
-
-***
 
 But, can now become manifest via a **Raw Code** liquid statement, as next illustrated ...
 
@@ -64,14 +57,10 @@ But, can now become manifest via a **Raw Code** liquid statement, as next illust
 
 **Note**. No bare Urls allowed in Markdown
 
-## Raw Code
+{% include sources-and-uses.md %}
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+### External Sources
 
-***
+- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:target="_blank"}.
+- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon dot com"}{:target="_blank"}.

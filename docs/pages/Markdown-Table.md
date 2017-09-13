@@ -1,16 +1,13 @@
 ---
 title: Markdown Table
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
 # Markdown Table
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc-flammarion.md %}
 
 ## How To Create A Table In Markdown
 
@@ -375,6 +372,8 @@ There is a Markdown folder in the navigation aside of the MMINAIL home page. If 
 
 More to come ...
 
-***
+{% include sources-and-uses.md %}
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+### External Sources
+
+- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.

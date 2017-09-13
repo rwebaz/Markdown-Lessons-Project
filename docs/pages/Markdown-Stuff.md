@@ -1,79 +1,20 @@
 ---
-title: E Books
+title: Markdown Stuff
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
-# Article Title ( From Front Matter Above )
+# Markdown Stuff
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc-flammarion.md %}
 
 ## Subtitle
 
 More to come ...
 
-***
+{% include sources-and-uses.md %}
 
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+### External Sources
 
-***
-
-## Navigating This Page ( Internal Anchor Links )
-
-Also embed the introducing line of text ie.) the 'tagline' in the referring hyperlink that originates in the working repo nav, as follows:
-
-### The Referring Hyperlink Code
-
-```liquid
-{% raw %}
-<li><a href="https://rwebaz.github.io/Governance-Lessons-Project/pages/Stress-Uncertainty.html" title="Click to Visit the Stress Uncertainty Page at GitHub" target="_blank">Stress Uncertainty</a>: A deficiency of Brain Derived Neurotrophic Factors caused by the stresses of early childhood indirectly damages the adult prefrontal cortex, the hippocampus, as well as the adult hypothalamic adrenal system that is stimulated and regulated by the pituitary gland.</li>
-{% endraw %}
-```
-
-**Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line, as follows:
-
-### Table O Contents Code
-
-```liquid
-{% raw %}
-- TOC
-{:toc}
-{% endraw %}
-```
-
-## How To Include An 'include'
-
-```liquid
-{% raw %}
-{% include example.htm %}
-{% endraw %}
-```
-
-***
-
-## Navigating This Page ( Internal Anchor Links ) #2
-
-Also embed the introducing line of text ie.) the 'tagline' in the referring hyperlink that originates in the working repo nav, as follows:
-
-### The Referring Hyperlink Code #2
-
-```liquid
-{% raw %}
-<li><a href="https://rwebaz.github.io/Governance-Lessons-Project/pages/Stress-Uncertainty.html" title="Click to Visit the Stress Uncertainty Page at GitHub" target="_blank">Stress Uncertainty</a>: A deficiency of Brain Derived Neurotrophic Factors caused by the stresses of early childhood indirectly damages the adult prefrontal cortex, the hippocampus, as well as the adult hypothalamic adrenal system that is stimulated and regulated by the pituitary gland.</li>
-{% endraw %}
-```
-
-**Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line, as follows:
-
-### Table O Contents Code 2
-
-```liquid
-{% raw %}
-- TOC
-{:toc}
-{% endraw %}
-```
+- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
