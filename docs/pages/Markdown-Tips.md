@@ -7,13 +7,13 @@ navigation_weight: 9
 
 A bunch of Markdown - Kramdown - Liquid Short Lessons.
 
+{% include toc-flammarion.md %}
+
 ## GFG
 
 GFM is an acronym for "Git Hub Flavor'd Markdown"
 
 **Rule**. All markdown pages carry the suffix (.md)
-
-***
 
 ## Creating Headers
 
@@ -21,15 +21,11 @@ When creating headers using GitHub Flavored Markdown (.md) ...
 
 >Simply place one `#` = `<h1>`, two `##` = `<h2>`, or three `###` = `<h3>` sharp symbols in front of the text you wish to emphasize.
 
-***
-
 ## Emphasizing Text
 
 >When **emphasizing** text using GitHub Flavored Markdown (.md) ...
 
 >Simply place two (**) asterisk symbols in front of, and in back of the text you wish to **emphasize**.
-
-***
 
 ## Liquid Link Tags
 
@@ -95,8 +91,6 @@ Putting the two liquid statements together "live" we have the following "live" r
 
 [Target Blank]{{ site.baseurl }}{% link pages/Target-Blank.md %}
 
-***
-
 ## Inline Anchor Links
 
 Inline anchor links that point internally to other pages within the repo require a separate bracketed `[page.name]` followed by a relative `/page.url` prepended by the `site.github.url` enveloped in a *moustache* or **Liquid Variable Statement** `{\{...}\}`, and enclosed in a single set of parenthesis `(...)`, as follows:
@@ -126,8 +120,6 @@ Inline anchor links that point internally to other pages within the repo require
 ### Live G
 
 **Por ejemplo en vivo**. Another inline anchor link ... [Target Blank]({{ site.github.url }}/pages/Target-Blank).
-
-***
 
 ## Stand Alone External Hyperlinks
 
@@ -171,8 +163,6 @@ Stand alone "auto" URLs that point to external targets may be enclosed in angle 
 
 **Note**. All external "auto" URLs must start with `https`.
 
-***
-
 ## Enabling Hyperlinks
 
 >When enabling hyperlinks using GitHub Flavored Markdown (.md) ...
@@ -207,8 +197,6 @@ This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
 
 **Por ejemplo en vivo**. This Webpage is being hosted via [GitHub Pages](https://pages.github.com/).
 
-***
-
 ## Stand Alone URLs
 
 When enabling **Stand Alone URLs** using GitHub Flavored Markdown (.md) ...
@@ -218,8 +206,6 @@ Simply type the URL as a Stand Alone URL, as follows:
 C=> https://medmj.us/SolarPowerYes
 
 The Git Hub Markdown interpreter will automatically recognize a properly typed URL.
-
-***
 
 ## Anchor Links w Site Base URL Using the Optional liquid link tag
 
@@ -254,8 +240,6 @@ Using a Triple-backtick highlighted code block with a language qualifier of liqu
 ### Live Q
 
 **Por ejemplo en vivo**. [Target Blank]({{ site.baseurl }}{% link pages/Target-Blank.md %})
-
-***
 
 ## Single Backticks
 
@@ -312,8 +296,6 @@ Por ejemplo ( for example ), here is a block of `html` that has a double set of 
 One set of triple Back-ticks is placed above the start of the highlighted code block, and one set of triple Back-ticks is placed below the highlighted code block.
 
 Remember, similar to the **GFM** requirement that a blank line follow a Subtitle, the immediately 'below' set of triple Back-ticks requires a blank line following it, as well.
-
-***
 
 ## Subtitles
 
@@ -437,10 +419,8 @@ First Line of Text
 {% endraw %}
 ```
 
-## More To Come
+{% include sources-and-uses.md %}
 
-As more snippets are generated or found, expect this list to grow.
+### External Sources
 
-***
-
-**Source**: [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:target="_blank"}
+- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
