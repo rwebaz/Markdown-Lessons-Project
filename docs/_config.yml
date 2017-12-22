@@ -1,10 +1,10 @@
 # Site settings
 #
-# Date of this Update to Config-template file ver 08-13-2017 PM
+# Date of this Update to Config-template file ver 12-18-2017
 #
 # github: [metadata]
 theme: "jekyll-theme-cayman"
-# repository: MMINAIL/mminail.github.io
+# repository: https://www.github.com/rwebaz/Markdown-Lessons-Project
 title: "Markdown Lessons Project"
 tagline: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
 description: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
@@ -13,10 +13,11 @@ twitter:
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
-    github_username: "mminail"
-    twitter_username: "mminail"
-# The 'baseurl' is the subpath of your website, e.g. /blog
+    github_username: "rwebaz"
+    twitter_username: "rwebaz"
+# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project
 baseurl: "/Markdown-Lessons-Project"
+# The 'url' is the parental web address of your designated project, e.g. /https://rwebaz.github.io
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
@@ -45,11 +46,6 @@ defaults:
       image: "true"
 defaults:
   - scope:
-      path: "assets/ico"
-    values:
-      image: "true"
-defaults:
-  - scope:
       path: "" 
       type: "pages"
     values:
@@ -71,7 +67,7 @@ defaults:
       type: "collection_LLP"
     values:
       layout: "page"
-gems:
+plugins_dir:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
