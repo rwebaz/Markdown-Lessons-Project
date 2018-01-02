@@ -83,6 +83,30 @@ Finally, to enable the fetching and rendering of your subject image in **Markdow
 
 ![MMI™ Flammarion Logo Badge](../assets/img/png/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png)
 
+To activate a hyperlink to a new tab in your browser ...
+
+- Append an appropriate title and target to a link, as follows:
+
+```liquid
+{% raw %}
+[Project Source Links]
+(https://mminail.github.io/Shell/Source-Shell-Links.htm)
+{:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"}
+{% endraw %}
+```
+
+Or,
+
+To activate an hyperlink embedded in an image ...
+
+- More to come
+
+```liquid
+{% raw %}
+More to come ...
+{% endraw %}
+```
+
 {% include sources-and-uses.md %}
 
 ### External Sources
@@ -90,3 +114,5 @@ Finally, to enable the fetching and rendering of your subject image in **Markdow
 - The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
 
 - [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon dot com"}{:target="_blank"}.
+
+- [Inline Image Construction](https://rwebaz.github.io/Markdown-Lessons-Project/pages/Inline-Images.html){:title="Click to Visit the Inline Images Page at GitHub"}{:target="_blank"}. Inline images may be displayed in Markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
