@@ -9,10 +9,6 @@ The Flammarion is an ancient portrait of a medieval man poking his head into the
 
 {% include toc-flammarion.md %}
 
-## Deep Origins
-
-"If you don't give me and my crew some food, I will cause the sun to stop shining!"~ Christopher Columbus, circa 1500
-
 {% include flammarion-svg.md %}
 
 {% include sources-and-uses.md %}
