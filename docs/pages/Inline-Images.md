@@ -106,6 +106,61 @@ To activate an hyperlink embedded in an image ...
 More to come ...
 {% endraw %}
 ```
+**Note**. Inline Images may be displayed in **Markdown** using the exclamation point `!` ...
+
+- Followed by a bracketed `[Alt Text]` ... 
+
+- Followed by a relative `URL` enclosed in a single set of parenthesis `(...)`.
+
+- And, that includes SVG images, too!
+
+### Dot ePub
+
+When converting a **Kramdown** md file holding the suffix ( .html ), the ( .mobi ) engine **Dotepub** will return the message [Image in a non-supported format] even though clear as a bell your Chrome browser is rendering the ( .svg ) "No hay problema!"
+
+#### Base Dimensions
+
+Here, we are going to use an original `( .xcf )` file that has been exported from **GIMP** as a `( .psd )` of dimensions 725 px X 725 px X 96 dpi.
+
+#### Import to AI
+
+Next, the resultant `( .psd )` file is imported into **Adobe Illustrator**, or **AI** via simple 'File Open'.
+
+Once inside **AI**, the `( .psd )` file is then "save as" an `( .svg )`.
+
+Out comes a perfectly centered ... to the top horizontal and center vertical ... an `( .svg )` file of initial dimensions 543.75 px X 543.75 px, as follows:
+
+```liquid
+{% raw %}
+![MMI™ Flammarion Logo Badge](../assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg)
+{% endraw %}
+```
+
+#### Responsive SVG
+
+An **SVG** file can be both expandable and responsive.
+
+To render a smaller version of the `( .svg )`, simply append an appropriate height and width, as follows:
+
+```liquid
+{% raw %}
+{:height="120px" width="120px"}
+{% endraw %}
+```
+
+#### Presentation Dimensions
+
+The following **Live** rendition of the **MMI™ Flammarion Logo Badge** `( .svg )` image file is set to the dimensions of 500.00 px X 500.00 px, as shown in the following code block:
+
+```liquid
+{% raw %}
+![MMI™ Flammarion Logo Badge](../assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:height="500px" width="500px"}
+{% endraw %}
+```
+
+##### Live Image: SVG In Markup
+
+![MMI™ Flammarion Logo Badge](../assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:height="500px" width="500px"}
 
 {% include sources-and-uses.md %}
 
