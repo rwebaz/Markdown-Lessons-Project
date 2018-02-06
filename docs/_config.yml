@@ -1,13 +1,20 @@
 # Site settings
 #
-# Date of this Update to Config-template file ver 12-18-2017
+# Date of this Update to Config-template file ver 02-05-2018
 #
-# github: [metadata]
+# Uncomment theme for docs folder
 theme: "jekyll-theme-cayman"
+#
+# There is one main repository as of 12-31-17
+# repository: https://www.github.com/MMINAIL/mminail.github.io
+#
+# There are approx sixty auxillary repositories as of 12-31-17
 # repository: https://www.github.com/rwebaz/Markdown-Lessons-Project
+#
 title: "Markdown Lessons Project"
-tagline: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
-description: "The Markdown Lessons Project is a Git Hub repo of coding lessons that emphasize both the GFM and Kramdown engines."
+lang: "en-US"
+tagline: "A GitHub repo of Lessons and Articles that emphasize both the GFM and Kramdown development languages"
+description: "The Markdown Lessons Project, or MLP is a GitHub repo of Lessons and Articles emphasizing both the GFM and Kramdown development languages."
 twitter:
     username: "mminail"
 author:
@@ -15,9 +22,9 @@ author:
     email: "mminail@icloud.com"
     github_username: "rwebaz"
     twitter_username: "rwebaz"
-# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project
+# The 'baseurl' is the subpath of your designated project, e.g. /Blank-Lessons-Project or /blog or simply "/"
 baseurl: "/Markdown-Lessons-Project"
-# The 'url' is the parental web address of your designated project, e.g. /https://rwebaz.github.io
+# The 'url' is the parental web address of your designated project, e.g. /https://mminail.github.io
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
@@ -29,6 +36,7 @@ kramdown:
     math_engine: "mathjax"
 timezone: "America/Phoenix"
 google_analytics: [UA-44765001-15]
+# Settings For Default Keys: Use a scope/values pair
 defaults:
   - scope:
       path: "assets/img"
@@ -46,27 +54,31 @@ defaults:
       image: "true"
 defaults:
   - scope:
+      path: "assets/ico"
+    values:
+      image: "true"
+defaults:
+  - scope:
       path: "" 
       type: "pages"
     values:
-      layout: "default"
-      author: "Robert Weber, Director"
+      category: "markdown"
 defaults:
   - scope:
       path: "pages"
       type: "pages"
     values:
-      layout: "default" 
-      author: "Robert Weber, Director"
+      category: "markdown"
+excerpt_separator: <!-- this is a literal excerpt separator -->
 collections:
-  collection_CFFP:
+  gists:
     output: "true"
 defaults:
   - scope:
-      path: ""
-      type: "collection_LLP"
+      path: "_gists"
+      type: "pages"
     values:
-      layout: "page"
+      category: "markdown"
 plugins_dir:
   - jekyll-feed
   - jekyll-seo-tag
@@ -74,3 +86,4 @@ plugins_dir:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Gemfile.old
