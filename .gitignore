@@ -1,6 +1,6 @@
-#
-# Template Dtd 12-20-17
-#
+# 
+# Template Dtd 01-31-18
+# 
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 #
 # User-specific files
@@ -150,6 +150,7 @@ nCrunchTemp_*
 #
 # MightyMoose
 *.mm.*
+#
 AutoTest.Net/
 #
 # Web workbench (sass)
@@ -264,7 +265,7 @@ FakesAssemblies/
 #
 # Node.js Tools for Visual Studio
 .ntvs_analysis.dat
-node_modules/
+# node_modules/
 #
 # Typescript v1 declaration files
 typings/
@@ -403,31 +404,13 @@ _TeamCity*
 # DotCover is a Code Coverage Tool
 *.dotCover
 #
-# NCrunch
-_NCrunch_*
-.*crunch*.local.xml
-nCrunchTemp_*
-#
-# MightyMoose
-*.mm.*
-AutoTest.Net/
-#
 # Web workbench (sass)
 .sass-cache/
 #
 # Installshield output folder
 [Ee]xpress/
 #
-# DocProject is a documentation generator add-in
-#
-DocProject/buildhelp/
-DocProject/Help/*.HxT
-DocProject/Help/*.HxC
-DocProject/Help/*.hhc
-DocProject/Help/*.hhk
-DocProject/Help/*.hhp
-DocProject/Help/Html2
-DocProject/Help/html
+Project/Help/html
 #
 # Click-Once directory
 publish/
@@ -600,8 +583,8 @@ Thumbs.db
 # npm
 # Commit all npm-lock
 # npm install
-# package.json
-# package-lock.json
+package.json
+package-lock.json
 #
 npm-debug.log*
 npm-debug.log
@@ -609,16 +592,60 @@ npm-debug.log
 # yarn
 # Commit all yarn-lock
 # yarn install
-# package.json
-# package-lock.json
-# yarn.lock
+package.json
+yarn.lock
 #
 # gem
 # Commit all gem-lock
-# bundle install
-# gemfile
-# gemfile.lock
+# bundle install / update
+gemfile
+gemfile.lock
 #
 # Prince XML Output files
 *.pdf
 #
+# From Xamarin - Visual Studio Mac
+#
+# Autosave files
+*~
+#
+# build
+[Oo]bj/
+[Bb]in/
+packages/
+TestResults/
+#
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+#
+# Mac bundle stuff
+*.dmg
+*.app
+$
+# resharper
+*_Resharper.*
+*.Resharper
+#
+# dotCover
+*.dotCover
+#
+.metadata
+# 
