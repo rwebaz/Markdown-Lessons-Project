@@ -1,7 +1,9 @@
+#  
+# Template Dtd 11-09-19
 # 
-# Template Dtd 01-31-18
-# 
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+# See http://help.github.com/ignore-files/ for more about ignoring files
+#
+# Note. The types and files not commented out on this '.gitignore' sheet will not be pushed to the master. They will be ignored by Git.
 #
 # User-specific files
 *.suo
@@ -596,10 +598,9 @@ package.json
 yarn.lock
 #
 # gem
-# Commit all gem-lock
-# bundle install / update
-gemfile
-gemfile.lock
+# Commit all gem-lock via bundle update
+# gemfile
+# gemfile.lock
 #
 # Prince XML Output files
 *.pdf
