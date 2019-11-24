@@ -1,15 +1,22 @@
 ---
 title: Markdown Table
 layout: default
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Markdown-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 8
+categories: page
 ---
-# Markdown Table
+{% include toc.md %}
 
-Place the introducing line of text ie.) the 'tagline' here ...
+## First Subtitle
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
 
-## How To Create A Table In Markdown
+More to come ...
+
+### How To Create A Table In Markdown
 
 - First, make a new repository at GitHub
 
@@ -368,12 +375,16 @@ Finally, commit your changes to the local Working branch and issue a pull reques
 
 There is a Markdown folder in the navigation aside of the MMINAIL home page. If you click on the 'Learn Markdown' sub-tab in the drop down menu, you will see a series of links that will hyperlink the end-user to the markdown pages complete with a link-back to the home page of the MMINAIL embedded in the footer of each (.md)
 
-## Subtitle
+## Last Subtitle
 
 More to come ...
 
-{% include sources-and-uses.md %}
+***
 
-### External Sources
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

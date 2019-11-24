@@ -1,15 +1,26 @@
 ---
 title: Spanish Tables
 layout: default
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Markdown-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 8
+categories: page
 ---
-# Spanish Tables
+{% include toc.md %}
 
-How to form a table using Kramdown in Markdown.
+## First Subtitle
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
 
-## Source Code
+More to come ...
+
+### How to form a table using Kramdown in Markdown
+
+More to come ...
+
+#### Source Code
 
 From the Terminal prompt or your user root directory of your development machine, type the following command:
 
@@ -94,10 +105,18 @@ sin Hueso|![Page Banner](../assets/img/png/raspberry-frambuesa-32-x-32.png)|with
 
 {% include ping-back.htm %}
 
-{% include sources-and-uses.md %}
-
 **Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line, as follows:
 
-### External Sources
+## Last Subtitle
 
-- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+More to come ...
+
+***
+
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
+
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

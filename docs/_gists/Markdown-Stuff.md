@@ -7,7 +7,7 @@ navigation_weight: 8
 
 Place the introducing line of text ie.) the 'tagline' here ...
 
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Subtitle
 

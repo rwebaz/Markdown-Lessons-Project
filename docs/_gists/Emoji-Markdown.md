@@ -7,7 +7,7 @@ navigation_weight: 8
 
 {{ site.tagline }}
 
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Using Emoji In Markdown
 

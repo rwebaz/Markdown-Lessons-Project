@@ -33,8 +33,6 @@ Enjoy the successful output!
 {% endraw %}
 ```
 
-{% include brackets-ide.md %}
-
 {% include sources-and-uses.md %}
 
 ### External Sources

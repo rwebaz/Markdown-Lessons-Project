@@ -2,16 +2,19 @@
 title: Block Quotes
 layout: default
 excerpt: The block quote in Markdown places a vertical bar in front of your paragraph of text ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Markdown-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 8
-categories: markdown
+categories: page
 ---
-# Block Quotes
-
-{{ page.excerpt }}
-
-{% comment %}Gist Page Template md Dtd 02-04-18{% endcomment %}
-
 {% include toc.md %}
+
+## First Subtitle
+
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ## Greater Than
 
@@ -38,20 +41,14 @@ First Line of Text
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-### Raw Code Block
+***
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+**Note**. The above synopsis was derived from an article written by Cloud Cannon [[1](#CLOUDCANNON){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#CLOUDCANNON}[Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud cannon dot com"}{:target="_blank"}.
 
-### External Sources
+***
 
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud cannon dot com"}{:target="_blank"}.
-
-- The [Project Source Links](https://mminail.github.io/Liquid/Source-Liquid-Links.htm){:title="Click to Visit the Source Links page of the Liquid Lessons Project at GitHub pages"}{:target="_blank"} page of the Liquid Lessons Project. Published by © 2017 - 2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}

@@ -1,13 +1,20 @@
 ---
 title: Citrus Table
 layout: default
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Markdown-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 8
+categories: page
 ---
-# Citrus Table
+{% include toc.md %}
 
-{{ site.tagline }}
+## First Subtitle
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ## Table (Mesa) O Citrus ( de Citrus )
 
@@ -124,8 +131,16 @@ A live rendition of the 'Table (Mesa) O Citrus ( de Citrus )' is reproduced here
 
 **Note**. Unordered Lists (ul) should be surrounded by blank lines in GitHub Flavored Markdown (GFM), except in those instances where a Kramdown command is subsequently evoked on the very next line.
 
-{% include sources-and-uses.md %}
+## Last Subtitle
 
-- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+More to come ...
 
-- The [GitLab Markdown Guide](https://about.gitlab.com/){:title="Click to Visit the GitLab Markdown Guide"}{:target="_blank"} by Gitlab. Published by © 2017 [Gitlab.com](https://www.gitlab.com/){:title="Click to Visit the GitLab Home Page"}{:target="_blank"}.
+***
+
+**Note**. The above synopsis was derived from an article written by Git Lab [[1](#GITLAB){:.red}].
+
+1. {:#GITLAB}[GitLab Markdown Guide](https://about.gitlab.com/){:title="Click to Visit the GitLab Markdown Guide"}{:target="_blank"} by Gitlab. Published by © 2017 [Gitlab.com](https://www.gitlab.com/){:title="Click to Visit the GitLab Home Page"}{:target="_blank"}.
+
+***
+
+{% include patreon-link.md %}
