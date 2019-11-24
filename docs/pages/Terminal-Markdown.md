@@ -1,15 +1,22 @@
 ---
 title: Terminal Markdown
 layout: default
+excerpt: Markdown is a set of common rules that allow the enduser to easily write readable and formatted digitally text quickly ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Markdown-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 8
+categories: page
 ---
-# Terminal Markdown
+{% include toc.md %}
 
-Markdown is a set of common rules on how to easily write readable and formatted digitally text quickly.
+## First Subtitle
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
 
-## How To Learn Markdown From The Terminal
+More to come ...
+
+### How To Learn Markdown From The Terminal
 
 "Knowledge of Markdown is an important skill for modern developers.~ [@wangding](https://www.github.com/wangding){:target="_blank"}
 
@@ -120,14 +127,20 @@ From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
 From the base Terminal prompt ( your-machine-name:~ your-root-directory$ ) ...
 
-{% include sources-and-uses.md %}
+## Last Subtitle
 
-### External Sources
+More to come ...
 
-- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
 
-- The [GitHub Username: @wangding](https://www.github.com/wangding){:title="Click to Visit the Git Hub profile of wang ding"}{:target="_blank"} Original Creator of How-To-Markdown.
+**Note**. The above synopsis was derived from an article written by Aaron Swartz [[1](#AARONSWARTZ){:.red}] and John Gruber [[2](#JOHNGRUBER){:.red}].
 
-- The [John Gruber, original Markdown creator, #2004](https://daringfireball.net/){:title="Click to Visit Daring Fireball dot net"}{:target="_blank"} Original Co-Creator of Markdown.
+1. {:#AARONSWARTZ}[Aaron Swartz, original Markdown creator, 2004](https://www.aaronsw.com/){:title="Click to Visit Aaron Sw dot com"}{:target="_blank"} Original Co-Creator of Markdown.
 
-- The [Aaron Swartz, original Markdown creator, 2004](https://www.aaronsw.com/){:title="Click to Visit Aaron Sw dot com"}{:target="_blank"} Original Co-Creator of Markdown.
+1. {:#JOHNGRUBER}[John Gruber, original Markdown creator, #2004](https://daringfireball.net/){:title="Click to Visit Daring Fireball dot net"}{:target="_blank"} Original Co-Creator of Markdown.
+
+1. {:#WANGDING}[GitHub Username: @wangding](https://www.github.com/wangding){:title="Click to Visit the Git Hub profile of wang ding"}{:target="_blank"} Original Creator of How-To-Markdown.
+
+***
+
+{% include patreon-link.md %}

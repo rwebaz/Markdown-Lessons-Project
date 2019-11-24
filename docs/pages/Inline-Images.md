@@ -1,13 +1,20 @@
 ---
 title: Inline Images
 layout: default
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Markdown-Lessons-Project
+ver_date: 11-20-19
 navigation_weight: 8
+categories: page
 ---
-# Inline Images
+{% include toc.md %}
 
-{{ site.tagline }}
+## First Subtitle
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ## Enabling Image URLs
 
@@ -162,12 +169,16 @@ The following **Live** rendition of the **MMI™ Flammarion Logo Badge** `( .svg
 
 ![MMI™ Flammarion Logo Badge](../assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:height="500px" width="500px"}
 
-{% include sources-and-uses.md %}
+## Last Subtitle
 
-### External Sources
+Inline images may be displayed in Markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`.
 
-- The [Project Source Links](https://mminail.github.io/Markdown/Source-Markdown-Links.htm){:title="Click to Visit the Source Links page of the Markdown Lessons Project at GitHub pages"}{:target="_blank"} page of the Markdown Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
 
-- [Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon dot com"}{:target="_blank"}.
+**Note**. The above synopsis was derived from an article written by Cloud Cannon [[1](#CLOUDCANNON){:.red}].
 
-- [Inline Image Construction](https://rwebaz.github.io/Markdown-Lessons-Project/pages/Inline-Images.html){:title="Click to Visit the Inline Images Page at GitHub"}{:target="_blank"}. Inline images may be displayed in Markdown using the exclamation point `!` followed by a bracketed `[Alt Text]` followed by a relative `URL` enclosed in a single set of parenthesis `(...)`. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the current Home Page of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+1. {:#CLOUDCANNON}[Instructional Jekyll Tips n Vids by Cloud Cannon](https://learn.cloudcannon.com/){:title="Click to Visit Instructional Jekyll Tips n Vids by Cloud Cannon"}{:target="_blank"}. Published by © 2017 [Cloudcannon.com](https://www.cloudcannon.com){:title="Click to Visit Cloud Cannon dot com"}{:target="_blank"}.
+
+***
+
+{% include patreon-link.md %}

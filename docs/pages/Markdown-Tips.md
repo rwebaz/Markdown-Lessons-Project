@@ -1,13 +1,20 @@
 ---
 title: Markdown Tips
 layout: default
-navigation_weight: 9
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Markdown-Lessons-Project
+ver_date: 11-20-19
+navigation_weight: 8
+categories: page
 ---
-# Markdown Tips
+{% include toc.md %}
 
-A bunch of Markdown - Kramdown - Liquid Short Lessons.
+## First Subtitle
 
-{% include toc-flammarion.md %}
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ## GFG
 
@@ -419,8 +426,16 @@ First Line of Text
 {% endraw %}
 ```
 
-{% include sources-and-uses.md %}
+## Last Subtitle
 
-### External Sources
+More to come ...
 
-- The [Project Source Links](https://mminail.github.io/Shell/Source-Shell-Links.htm){:title="Click to Visit the Source Links page of the Shell Lessons Project at GitHub pages"}{:target="_blank"} page of the Shell Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+***
+
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
+
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+
+***
+
+{% include patreon-link.md %}

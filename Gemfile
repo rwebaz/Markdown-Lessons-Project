@@ -1,13 +1,15 @@
+#
+# Gemfile ver 111819 Satellite Repo
+#
+# frozen_string_literal: true
+#
 source "https://rubygems.org"
-# ill-formed => gem 'source', 'https://rubygems.org'
-# ruby "2.5.3"
+#
 ruby "2.6.5"
-# Gemfile ver 110719
-# ill-formed => gem 'ruby', '2.4.2'
-# Could not find gem 'ruby (= 2.4.2)'
-# In any of the gem sources listed in your Gemfile
-# 
-# Date of this Update to Gem-template file ver 05-14-2019
+#
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+#
+# gem "rails"
 # 
 # Hello!
 #
@@ -167,8 +169,16 @@ gem 'jekyll-docs', '3.8.5'
 #
 # jekyll serve --watch --baseurl "" --port 4001 -o
 #
+# Other switches can be added to trace a cache and the `bundle exec` prefix can be added to the `jekyll serve` command as above, as follows:
+#
+# bundle exec jekyll serve --watch --trace --baseurl "" --port 4003 -o
+#
+# The final `-o` switch in the above Terminal command auto opens the browser
+#
 # The default theme for new Jekyll sites is 'jekyll-theme-minimal 0.1.1'.
-# Note. You may change the theme to anything you like via the config dot yaml page located in the `docs` folder of your new repo
+#
+# Note. You may change the theme to anything you like via the config dot yaml page located in the `docs` folder of your new repo.
+#
 # If you do decide to manage the theme of your repo from the config dot yaml page, then comment out both the default and your selected themes here, as follows:
 #
 # gem 'jekyll-theme-minimal', 0.1.0'
@@ -226,7 +236,8 @@ gem 'jekyll-sitemap', '1.2.0'
 #
 gem 'jekyll-swiss', '0.4.0'
 #
-# gem 'jekyll-theme-cayman', '0.1.1'
+# Uncomment for all satellite repos
+gem 'jekyll-theme-cayman', '0.1.1'
 #
 gem 'jekyll-titles-from-headings', '0.5.1'
 #
@@ -258,4 +269,4 @@ gem 'rubyzip', '2.0.0'
 #
 # Note. Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 # gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-#
+# 

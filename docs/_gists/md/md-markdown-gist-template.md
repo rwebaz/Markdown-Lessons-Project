@@ -1,7 +1,7 @@
 ---
-title: Base Links
+title: Shell Gist
 layout: default
-excerpt: Base links may be placed below paragraphs and referenced in the above paragraphs using Markdown ...
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Markdown-Lessons-Project
 ver_date: 11-20-19
@@ -15,18 +15,6 @@ categories: page
 > **Hint**. {{ page.hint }}
 
 More to come ...
-
-## Base Links ( Example )
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
-
-File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh].
-
-If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
 
 ## Last Subtitle
 
